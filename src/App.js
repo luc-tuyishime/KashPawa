@@ -3,7 +3,6 @@ import "./App.css";
 
 import { ReactComponent as Vector } from "./assets/img/Logo.svg";
 import { ReactComponent as Diagram } from "./assets/img/diagram.svg";
-import { ReactComponent as Line } from "./assets/img/footer-line.svg";
 import { ReactComponent as House } from "./assets/img/House.svg";
 
 function App() {
