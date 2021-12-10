@@ -29,7 +29,11 @@ function App() {
                 <Input
                   className="input-css"
                   placeholder="YOUR EMAIL ADDRESS"
-                  style={{ width: "calc(30% - 100px)" }}
+                  style={{
+                    width: "calc(30% - 100px)",
+                    backgroundColor: "#222021",
+                    color: "#fff",
+                  }}
                 />
                 <Button type="primary">Submit</Button>
               </Input.Group>

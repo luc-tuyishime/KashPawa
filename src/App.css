@@ -3,7 +3,6 @@
 }
 
 
-
 @font-face {
   font-family: 'Redsans-light';
   src: local('LIGHT'), url(./assets/fonts/LIGHT/Redsans-Light.otf) format('opentype');
@@ -95,7 +94,7 @@
 
 .ant-btn-primary {
   background-color: #18b67d;
-  border: 1px solid #18b67d;
+  border: 2px solid #18b67d;
   font-family: Redsans-regular;
   border-radius: 0px 5px 5px 0px !important;
   -webkit-border-radius: 0px 5px 5px 0px !important;
@@ -104,8 +103,23 @@
   -o-border-radius: 0px 5px 5px 0px !important;
 }
 
-.input-css input::placeholder {
+.ant-btn-primary:hover {
+  background-color: #18b67d;
+  border: 2px solid #18b67d;
   font-family: Redsans-regular;
+  border-radius: 0px 5px 5px 0px !important;
+  -webkit-border-radius: 0px 5px 5px 0px !important;
+  -moz-border-radius: 0px 5px 5px 0px !important;
+  -ms-border-radius: 0px 5px 5px 0px !important;
+  -o-border-radius: 0px 5px 5px 0px !important;
+}
+
+.input-css {
+  font-family: Redsans-regular;
+  box-sizing: "border-box";
+  border: 2px solid #5A5A5A;
+  position: relative;
+  bottom: 1.2px;
 }
 
 .text-footer-subtext {
@@ -150,4 +164,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+ 
 }
