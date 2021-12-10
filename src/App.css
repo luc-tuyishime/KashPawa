@@ -2,9 +2,25 @@
   text-align: center;
 }
 
+
+
+@font-face {
+  font-family: 'Redsans-light';
+  src: local('LIGHT'), url(./assets/fonts/LIGHT/Redsans-Light.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Redsans-regular';
+  src: local('LIGHT'), url(./assets/fonts/REGULAR/Redsans.otf) format('opentype');
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.ccc {
+ float: right
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,8 +29,107 @@
   }
 }
 
+
 .App-header {
-  background-color: #282c34;
+  background-color: #222021; 
+  min-height: 100vh;
+  color: #fff;
+  padding-top: 60px;
+}
+
+.img-left {
+  margin-right: 5px;
+  margin-bottom: 0px;
+  float:left; 
+ 
+}
+
+.cashpawa-text {
+  font-family: Redsans-regular;
+  position: relative;
+  top: 8px;
+  font-size: 21px;
+}
+
+.sub-text {
+  font-family: Redsans-regular;
+  padding-top: 25px;
+  font-size: 26px;
+  color: #16B663;
+  letter-spacing: 0.2em;
+}
+
+.sub-text-2 {
+  font-family: Redsans-regular;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+}
+
+.diagram-container {
+  padding-top: 15px;
+}
+
+#footer {
+  position: fixed;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  bottom: 30px;
+  right: 0;
+  right: 30px;
+}
+
+.text-footer-right {
+  float: right;
+  font-family: Redsans-regular;
+  margin-right: 20px;
+  font-size: 12px;
+  margin-top: 30px;
+  letter-spacing: 0.2em;
+}
+
+.text-footer-2 {
+  letter-spacing: 0.2em;
+}
+
+.ant-btn-primary {
+  background-color: #18b67d;
+  border: 1px solid #18b67d;
+  font-family: Redsans-regular;
+  border-radius: 0px 5px 5px 0px !important;
+  -webkit-border-radius: 0px 5px 5px 0px !important;
+  -moz-border-radius: 0px 5px 5px 0px !important;
+  -ms-border-radius: 0px 5px 5px 0px !important;
+  -o-border-radius: 0px 5px 5px 0px !important;
+}
+
+.input-css input::placeholder {
+  font-family: Redsans-regular;
+}
+
+.text-footer-subtext {
+  margin-right: 14px;
+}
+
+.text-mailing {
+  font-family: Redsans-regular;
+  font-size: 12px;
+  margin-top: 15px;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+}
+
+.mailing-container {
+  margin-top: 140px;
+}
+
+.footer-text {
+  float: right
+}
+
+.loading-container {
+  background-color: #222021;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
