@@ -58,9 +58,9 @@ function App() {
               <div id="footer">
                 <div>
                   {width >= 1920 ? (
-                    <House width="750" height="750" className="large-screen" />
+                    <House width="850" height="850" />
                   ) : (
-                    <House width="400" height="400" className="large-screen" />
+                    <House width="750" height="750" />
                   )}
                 </div>
                 <div className="text-footer-right">

@@ -208,10 +208,7 @@ body{
   bottom: 1.2px;
 }
 
-.large-screen {
-  width: 800px;
-  height: 800px;
-}
+
 
 
 @media screen and (min-width: 992px) {
