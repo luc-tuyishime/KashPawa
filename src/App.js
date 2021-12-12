@@ -60,7 +60,7 @@ function App() {
                   {width >= 1920 ? (
                     <House width="850" height="850" />
                   ) : (
-                    <House width="750" height="750" />
+                    <House width="400" height="400" />
                   )}
                 </div>
                 <div className="text-footer-right">
