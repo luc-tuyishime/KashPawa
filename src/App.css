@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+body{
+  background-color: #222021; 
+}
+
 
 @font-face {
   font-family: 'Redsans-light';
@@ -30,7 +34,6 @@
 
 
 .App-header {
-  background-color: #222021; 
   min-height: 100vh;
   color: #fff;
   padding-top: 60px;
@@ -136,6 +139,7 @@
 
 .mailing-container {
   margin-top: 140px;
+  padding-bottom: 15px;
 }
 
 .footer-text {
@@ -157,6 +161,14 @@
   color: #61dafb;
 }
 
+.show-desktop {
+  display: block;
+}
+
+.display-mobile {
+  display: none
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -167,5 +179,69 @@
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+ .show-desktop {
+   display: none;
+ }
+ .display-mobile {
+   display: block;
+   padding: 0 20px;
+ }
  
+ .center {
+   text-align: center;
+ }
+ .sub-text {
+  
+  font-family: Redsans-regular;
+  font-size: 18px;
+  color: #16B663;
+  letter-spacing: 0.2em;
+  padding-top: 35px;
+}
+
+.sub-text-2 {
+  text-align: center;
+  font-family: Redsans-regular;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  padding-top: 30px;
+}
+
+.center-svg {
+  text-align: center;
+  margin-left: 15px;
+}
+
+.padding-mobile-text {
+  padding-top: 35px;
+}
+
+.house-mobile {
+  padding-top: 80px;
+}
+
+.mailing-container {
+  margin-top: 40px;
+}
+
+.text-footer-2 {
+  font-family: Redsans-regular;
+  font-size: 12px;
+  margin-top: 30px;
+  letter-spacing: 0.2em;
+}
+
+.text-footer-subtext {
+  font-family: Redsans-regular;
+  font-size: 12px;
+  margin-top: 30px;
+  letter-spacing: 0.2em;
+}
+
+.footer-link {
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
 }
