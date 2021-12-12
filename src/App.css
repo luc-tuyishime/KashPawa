@@ -37,6 +37,7 @@ body{
   min-height: 100vh;
   color: #fff;
   padding-top: 60px;
+  position:relative;
 }
 
 .img-left {
@@ -78,7 +79,7 @@ body{
   overflow-y:scroll;
   overflow-x:hidden;
   bottom: 30px;
-  right: 0;
+ 
   right: 30px;
 }
 
@@ -138,8 +139,9 @@ body{
 }
 
 .mailing-container {
-  margin-top: 140px;
-  padding-bottom: 15px;
+  position: fixed; 
+  width:100%;
+  bottom:35px;
 }
 
 .footer-text {
@@ -191,13 +193,39 @@ body{
    text-align: center;
  }
  .sub-text {
-  
   font-family: Redsans-regular;
   font-size: 18px;
   color: #16B663;
   letter-spacing: 0.2em;
   padding-top: 35px;
 }
+
+.input-css {
+  font-family: Redsans-regular;
+  box-sizing: "border-box";
+  border: 2px solid #5A5A5A;
+  position: relative;
+  bottom: 1.2px;
+}
+
+.large-screen {
+  width: 800px;
+  height: 800px;
+}
+
+
+@media screen and (min-width: 992px) {
+      .large-screen {
+        width: 800px;
+        height: 80px;
+      }
+  }
+  
+  @media screen and (min-width: 1280px) {
+      .container {
+          width: 1250px;
+      }
+  }
 
 .sub-text-2 {
   text-align: center;
@@ -223,7 +251,10 @@ body{
 }
 
 .mailing-container {
-  margin-top: 40px;
+  position: inherit;
+  padding-top: 50px;
+  padding-bottom: 10px; 
+  
 }
 
 .text-footer-2 {
