@@ -29,7 +29,7 @@ function App() {
                 </p>
                 <div className="diagram-container">
                   {width >= 1920 ? (
-                    <Diagram width="684" height="150" />
+                    <Diagram width="750" height="250" />
                   ) : (
                     <Diagram width="484" height="98" />
                   )}
