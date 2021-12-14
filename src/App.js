@@ -42,7 +42,6 @@ function App() {
                     className="input-css"
                     placeholder="YOUR EMAIL ADDRESS"
                     style={{
-                      width: "calc(30% - 100px)",
                       backgroundColor: "#222021",
                       color: "#fff",
                     }}
@@ -60,7 +59,7 @@ function App() {
                   {width >= 1920 ? (
                     <House width="850" height="850" />
                   ) : (
-                    <House width="400" height="400" />
+                    <House className="img-svg" width="400" height="400" />
                   )}
                 </div>
                 <div className="text-footer-right">
@@ -94,7 +93,6 @@ function App() {
                     className="input-css"
                     placeholder="YOUR EMAIL ADDRESS"
                     style={{
-                      width: "calc(130% - 200px)",
                       backgroundColor: "#222021",
                       lineHeight: "22px",
                       color: "#fff",
@@ -120,7 +118,6 @@ function App() {
           </div>
         </div>
       </div>
-      {/* <Divider /> */}
     </div>
   );
 }

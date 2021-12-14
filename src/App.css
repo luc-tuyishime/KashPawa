@@ -124,6 +124,7 @@ body{
   border: 2px solid #5A5A5A;
   position: relative;
   bottom: 1.2px;
+  width: calc(30% - 100px) !important;
 }
 
 .text-footer-subtext {
@@ -206,6 +207,7 @@ body{
   border: 2px solid #5A5A5A;
   position: relative;
   bottom: 1.2px;
+  width: calc(130% - 200px) !important;
 }
 
 
@@ -271,5 +273,45 @@ body{
 .footer-link {
   padding-top: 15px;
   padding-bottom: 20px;
+ }
 }
+
+@media only screen and (max-height: 575.98px) 
+                   and (orientation: landscape) {
+          .mailing-container {
+            position: inherit !important;
+            padding-top: 100px;
+          }
+
+          #footer {
+            position: relative;
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+          }
+
+          .img-svg {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+          }
+
+          .text-footer-right {
+          
+            font-family: Redsans-regular;
+            margin-right: 10px;
+            font-size: 12px;
+            margin-top: 30px;
+            letter-spacing: 0.2em;
+          }
+
+          .input-css {
+            font-family: Redsans-regular;
+            box-sizing: "border-box";
+            border: 2px solid #5A5A5A;
+            position: relative;
+            bottom: 1.2px;
+            width: calc(110% - 200px) !important;
+          }
+   
 }
