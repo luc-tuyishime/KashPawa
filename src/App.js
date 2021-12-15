@@ -1,4 +1,5 @@
 import { Input, Col, Row, Button, Divider } from "antd";
+import { Helmet } from "react-helmet";
 import "./App.css";
 
 import { ReactComponent as Vector } from "./assets/img/Logo.svg";
@@ -14,6 +15,23 @@ function App() {
 
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+
+        <meta property="og:title" content="KASHPAWA...." />
+        <meta property="og:type" content="article" />
+        <meta
+          property="og:description"
+          content="An API that connects smart meters."
+        />
+        <meta property="og:image" content="../public/logo192.png" />
+        <meta
+          property="og:url"
+          content={window.location.pathname + window.location.search}
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image:alt" content="../public/logo192.png" />
+      </Helmet>
       <div className="App-header">
         {/* DESKTOP VIEW */}
         <div className="show-desktop">
