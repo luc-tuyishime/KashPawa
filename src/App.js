@@ -16,8 +16,6 @@ function App() {
   return (
     <div>
       <Helmet>
-        <meta charSet="utf-8" />
-
         <meta property="og:title" content="KASHPAWA...." />
         <meta property="og:type" content="article" />
         <meta
