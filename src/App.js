@@ -17,7 +17,6 @@ function App() {
     <div>
       <Helmet>
         <meta property="og:title" content="KASHPAWA...." />
-        <meta property="og:type" content="article" />
         <meta
           property="og:description"
           content="An API that connects smart meters."
