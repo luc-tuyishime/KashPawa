@@ -11,7 +11,7 @@ import { ReactComponent as DiagramMobile } from "./assets/img/diagram-mobile.svg
 import useWindowDimensions from "./helper/getWindowDimensions";
 
 function App() {
-  const { height, width } = useWindowDimensions();
+  const { width } = useWindowDimensions();
 
   return (
     <div>
